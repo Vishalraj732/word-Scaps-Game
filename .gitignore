@@ -39,3 +39,7 @@ local.properties
 *.keystore
 *.apk
 *.aab
+
+# Sensitive & Build files
+KeyStore/
+app/release/
