@@ -41,7 +41,6 @@ class HomeViewModel @Inject constructor(
     private fun observeGameProgress() {
         viewModelScope.launch {
             gamePrefs.gameProgressFlow.collect { progress ->
-                // progress is Triple(currentIndex, maxUnlocked, words) or Pair depending on your setup
                 val currentLevelNum = progress.first + 1
                 val isResume = currentLevelNum > 1
 
