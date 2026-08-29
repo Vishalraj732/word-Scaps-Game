@@ -11,6 +11,8 @@
 .idea/navEditor.xml
 .idea/modules.xml
 
+.kotlin/
+
 # Gradle files
 .gradle/
 /build/
