@@ -1,0 +1,39 @@
+# IDE files
+*.iml
+/.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/navEditor.xml
+.idea/modules.xml
+
+# Gradle files
+.gradle/
+/build/
+*/build/
+app/build/
+
+# Local configuration file (SDK path, etc)
+local.properties
+/local.properties
+
+# Log/OS Files
+*.log
+.DS_Store
+
+# Android Studio Captures
+/captures/
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# Keystore files (Security)
+*.jks
+*.keystore
+*.apk
+*.aab

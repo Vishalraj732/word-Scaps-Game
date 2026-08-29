@@ -1,0 +1,193 @@
+[
+  {
+    "levelNumber": 1,
+    "letters": ["C", "A", "T"],
+    "puzzleWords": [
+      { "word": "CAT", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "ACT", "startX": 1, "startY": 0, "isHorizontal": false }
+    ]
+  },
+  {
+    "levelNumber": 2,
+    "letters": ["C", "A", "R", "S"],
+    "puzzleWords": [
+      { "word": "CARS", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "ARC", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "SCAR", "startX": 0, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 3,
+    "letters": ["S", "T", "A", "R"],
+    "puzzleWords": [
+      { "word": "STAR", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "RAT", "startX": 3, "startY": 0, "isHorizontal": false },
+      { "word": "ART", "startX": 1, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 4,
+    "letters": ["P", "A", "R", "T"],
+    "puzzleWords": [
+      { "word": "PART", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "TRAP", "startX": 3, "startY": 0, "isHorizontal": false },
+      { "word": "ART", "startX": 3, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 5,
+    "letters": ["S", "E", "A", "T"],
+    "puzzleWords": [
+      { "word": "SEAT", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "EAST", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "TEA", "startX": 1, "startY": 3, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 6,
+    "letters": ["B", "R", "E", "A", "D"],
+    "puzzleWords": [
+      { "word": "BREAD", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "DARE", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "READ", "startX": 4, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 7,
+    "letters": ["S", "M", "I", "L", "E"],
+    "puzzleWords": [
+      { "word": "SMILE", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "MILE", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "SLIM", "startX": 0, "startY": 0, "isHorizontal": false }
+    ]
+  },
+  {
+    "levelNumber": 8,
+    "letters": ["W", "A", "T", "E", "R"],
+    "puzzleWords": [
+      { "word": "WATER", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "TEAR", "startX": 2, "startY": 0, "isHorizontal": false },
+      { "word": "RATE", "startX": 2, "startY": 3, "isHorizontal": true },
+      { "word": "RAW", "startX": 4, "startY": 0, "isHorizontal": false }
+    ]
+  },
+  {
+    "levelNumber": 9,
+    "letters": ["S", "P", "R", "I", "N", "G"],
+    "puzzleWords": [
+      { "word": "SPRING", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "RING", "startX": 2, "startY": 0, "isHorizontal": false },
+      { "word": "SING", "startX": 0, "startY": 0, "isHorizontal": false },
+      { "word": "PIG", "startX": 1, "startY": 0, "isHorizontal": false }
+    ]
+  },
+  {
+    "levelNumber": 10,
+    "letters": ["M", "A", "S", "T", "E", "R"],
+    "puzzleWords": [
+      { "word": "MASTER", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "ART", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "EAR", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "TEAR", "startX": 1, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 11,
+    "letters": ["F", "O", "R", "M", "A", "T"],
+    "puzzleWords": [
+      { "word": "FORMAT", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "FORM", "startX": 0, "startY": 0, "isHorizontal": false },
+      { "word": "ART", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "MAT", "startX": 2, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 12,
+    "letters": ["T", "H", "R", "E", "A", "D"],
+    "puzzleWords": [
+      { "word": "THREAD", "startX": 2, "startY": 0, "isHorizontal": true },
+      { "word": "READ", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "TEAR", "startX": 2, "startY": 0, "isHorizontal": false },
+      { "word": "DEAR", "startX": 0, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 13,
+    "letters": ["W", "I", "N", "T", "E", "R"],
+    "puzzleWords": [
+      { "word": "WINTER", "startX": 0, "startY": 2, "isHorizontal": true },
+      { "word": "WIRE", "startX": 0, "startY": 2, "isHorizontal": false },
+      { "word": "TIN", "startX": 2, "startY": 0, "isHorizontal": false },
+      { "word": "RENT", "startX": 0, "startY": 4, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 14,
+    "letters": ["P", "L", "A", "N", "E", "T"],
+    "puzzleWords": [
+      { "word": "PLANET", "startX": 0, "startY": 2, "isHorizontal": true },
+      { "word": "PLANE", "startX": 0, "startY": 2, "isHorizontal": false },
+      { "word": "PALE", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "LATE", "startX": 2, "startY": 1, "isHorizontal": false }
+    ]
+  },
+  {
+    "levelNumber": 15,
+    "letters": ["B", "R", "A", "N", "C", "H"],
+    "puzzleWords": [
+      { "word": "BRANCH", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "RAN", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "CRAB", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "BAR", "startX": 4, "startY": 3, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 16,
+    "letters": ["G", "A", "R", "D", "E", "N"],
+    "puzzleWords": [
+      { "word": "GARDEN", "startX": 0, "startY": 3, "isHorizontal": true },
+      { "word": "GEAR", "startX": 0, "startY": 3, "isHorizontal": false },
+      { "word": "DARE", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "READ", "startX": 1, "startY": 0, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 17,
+    "letters": ["C", "R", "E", "A", "T", "E"],
+    "puzzleWords": [
+      { "word": "CREATE", "startX": 0, "startY": 0, "isHorizontal": true },
+      { "word": "RATE", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "TREE", "startX": 4, "startY": 0, "isHorizontal": false },
+      { "word": "ART", "startX": 1, "startY": 1, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 18,
+    "letters": ["S", "C", "R", "E", "E", "N"],
+    "puzzleWords": [
+      { "word": "SCREEN", "startX": 1, "startY": 0, "isHorizontal": true },
+      { "word": "SCENE", "startX": 1, "startY": 0, "isHorizontal": false },
+      { "word": "SEEN", "startX": 0, "startY": 2, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 19,
+    "letters": ["A", "C", "T", "I", "O", "N"],
+    "puzzleWords": [
+      { "word": "ACTION", "startX": 0, "startY": 3, "isHorizontal": true },
+      { "word": "COIN", "startX": 5, "startY": 0, "isHorizontal": false },
+      { "word": "INTO", "startX": 3, "startY": 3, "isHorizontal": false },
+      { "word": "CAN", "startX": 5, "startY": 0, "isHorizontal": true }
+    ]
+  },
+  {
+    "levelNumber": 20,
+    "letters": ["D", "E", "S", "I", "G", "N"],
+    "puzzleWords": [
+      { "word": "DESIGN", "startX": 0, "startY": 2, "isHorizontal": true },
+      { "word": "SIGN", "startX": 2, "startY": 2, "isHorizontal": false },
+      { "word": "SING", "startX": 0, "startY": 5, "isHorizontal": true },
+      { "word": "DIG", "startX": 4, "startY": 0, "isHorizontal": false }
+    ]
+  }
+]
