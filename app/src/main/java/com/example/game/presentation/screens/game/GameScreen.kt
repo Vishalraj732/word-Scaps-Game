@@ -208,7 +208,6 @@ fun GameScreen(
                             onSwipeFinished = { viewModel.processIntent(GameIntent.SubmitWord) }
                         )
 
-                        // 🌟 Letter Wheel ke Top-Left me Reload Button
                         IconButton(
                             onClick = { viewModel.processIntent(GameIntent.ReloadCurrentLevel) },
                             enabled = state.foundWords.isNotEmpty(),

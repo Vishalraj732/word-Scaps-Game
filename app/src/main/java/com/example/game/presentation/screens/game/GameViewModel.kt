@@ -58,7 +58,6 @@ class GameViewModel @Inject constructor(
         viewModelScope.launch {
             val (savedIndex, _, savedWords) = gamePrefs.gameProgressFlow.first()
 
-            // 🌟 SAFETY CHECK: Agar saved index 20 ya usse bada hai (OutOfBounds), toh wapas 0 (Level 1) kar do
             currentLevelIndex = if (savedIndex >= maxLevels) 0 else savedIndex
 
             // USE CASE CALL
@@ -82,7 +81,6 @@ class GameViewModel @Inject constructor(
 
     private fun loadSpecificLevel(levelNum: Int) {
         viewModelScope.launch {
-            // 🌟 User jo level click karega, wo load hoga
             currentLevelIndex = (levelNum - 1).coerceIn(0, maxLevels - 1) // Safety range lock
 
             // USE CASE CALL
@@ -137,7 +135,6 @@ class GameViewModel @Inject constructor(
         val currentLevelData = _state.value.levelData ?: return
         val currentFoundWords = _state.value.foundWords
 
-        // USE CASE CALL
         val validationResult = validateWordUseCase(currentWord, currentLevelData, currentFoundWords)
 
         when (validationResult) {
@@ -168,7 +165,6 @@ class GameViewModel @Inject constructor(
                     // 🌟 Level completion logic
                     if (validationResult.isLevelComplete) {
 
-                        // 🌟 LOOP LOGIC: Agar Level 20 (index 19) pe hai, toh agla level 1 (index 0) hoga
                         val nextLevelIndex = if (currentLevelIndex >= maxLevels - 1) {
                             0
                         } else {
@@ -183,7 +179,6 @@ class GameViewModel @Inject constructor(
                         currentLevelIndex = nextLevelIndex
 
                     } else {
-                        // Level complete nahi hua hai, bas word save karo
                         gamePrefs.saveProgress(currentLevelIndex, validationResult.updatedFoundWords.toSet())
                     }
                 }
